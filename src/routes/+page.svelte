@@ -3,9 +3,11 @@
     import Intro from "./Intro.svelte";
     import Resume from "./Resume.svelte";
     import Portfolio from "./Portfolio.svelte"
+    import Contact from "./Contact.svelte";
 </script>
 
 <Header/>
 <Intro />
 <Resume />
 <Portfolio />
+<Contact />
