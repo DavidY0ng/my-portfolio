@@ -1,7 +1,7 @@
 <div class="relative h-[50vh] min-h-[800px] w-full max-w-[1200px] mx-auto py-[100px]">
 
     <div class="flex justify-between items-center gap-[20px]">
-        <div class="w-1/2 flex flex-col gap-10 relative">
+        <div class="relative flex flex-col w-1/2 gap-10">
             <h1 class="text-[70px] leading-[90px] font-semibold">
                 The Integration Design, And <span class="text-primary underline-tech">Technology</span>
             </h1>
@@ -15,9 +15,9 @@
         </div>
     
         <div class="relative w-[500px]">
-            <div class="absolute bg-primary md:h-[250px] md:w-[250px] lg:h-[400px] lg:w-[400px] rounded-full top-1/2 -translate-y-1/2 right-0 translate-x-1/3 z-[-1]"/>
+            <div class="absolute bg-primary md:h-[250px] md:w-[250px] lg:h-[400px] lg:w-[400px] rounded-full top-1/2 -translate-y-1/2 right-0 translate-x-1/4 z-[-1]"/>
             <div class=" absolute z-[-1] right-0 translate-x-1/2">
-                <img src='/pattern/arrow.svg' class="animate-bounce w-1/2" alt="arrow">
+                <img src='/pattern/arrow.svg' class="w-1/2 animate-bounce" alt="arrow">
             </div>
             
             <div class="overflow-hidden rounded-[50%] h-[600px] w-[450px]">

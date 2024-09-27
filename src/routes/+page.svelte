@@ -2,8 +2,10 @@
     import Header from "./Header.svelte";
     import Intro from "./Intro.svelte";
     import Resume from "./Resume.svelte";
+    import Portfolio from "./Portfolio.svelte"
 </script>
 
 <Header/>
 <Intro />
 <Resume />
+<Portfolio />

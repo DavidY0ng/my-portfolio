@@ -19,7 +19,7 @@
 	];
 </script>
 
-<div class="relative bg-[#f8f9f9] h-[50vh] min-h-[1200px]">
+<div class="relative bg-[#f8f9f9]">
 	<div class="w-full max-w-[1200px] mx-auto py-[100px]">
 		<Title section="resume" title="My Resume" />
         <div class="flex justify-center mt-10">
