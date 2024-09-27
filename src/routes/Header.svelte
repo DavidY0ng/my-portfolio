@@ -1,15 +1,19 @@
 <script>
     const paths = [
-        {name: "home", path:''},
-        {name: "about me", path:''},
-        {name: "work", path:''}
+        {name: "home", path:'#home'},
+        {name: "about me", path:'#resume'},
+        {name: "work", path:'#work'},
+        {name: "contact", path:'#contact'}
     ]
 </script>
-<div class="bg-white shadow-sm sticky p-5">
+
+<div class="fixed p-5 bg-white/50 shadow-sm z-[999] w-full">
     <div class="w-full max-w-[1200px] mx-auto">
-        <div class="flex gap-8 font-semibold justify-end">
+        <div class="flex justify-end gap-8 font-semibold">
             {#each paths as path}
-            <a class="uppercase hover:text-[#EBB884] transition-all duration-300" href="#"> {path.name}</a>
+            <a class="uppercase hover:text-[#EBB884] transition-all duration-300" href={path.path}>
+                {path.name}
+            </a>
             {/each}
         </div>
     </div>

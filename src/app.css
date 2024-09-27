@@ -9,3 +9,7 @@
 .text-primary {
     color: #EBB884
 }
+
+html {
+    scroll-behavior: smooth;
+}

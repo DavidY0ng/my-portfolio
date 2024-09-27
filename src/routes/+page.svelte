@@ -6,8 +6,18 @@
     import Contact from "./Contact.svelte";
 </script>
 
-<Header/>
-<Intro />
-<Resume />
-<Portfolio />
-<Contact />
+<section id="home">
+    <Header />
+</section>
+<section id="intro">
+    <Intro />
+</section>
+<section id="resume">
+    <Resume />
+</section>
+<section id="work">
+    <Portfolio />
+</section>
+<section id="contact">
+    <Contact />
+</section>
