@@ -4,16 +4,17 @@
     const infos = [
         {title: "Skywalker Lab", subtitle: "Company branch landing page", img: "01", link:"https://skywalker-lab.netlify.app/"},
         {title: "Skywalker Tech", subtitle: "Web3 tech multiple pages site", img: "02", link:"https://skywalker-tech.netlify.app/"},
-        {title: "Bujing Web", subtitle: "Customer's Web3 community landing page", img: "03", link:"https://bujing.netlify.app/"}
+        {title: "Bujing Web", subtitle: "Customer's Web3 community landing page", img: "03", link:"https://bujing.netlify.app/"},
+        {title: "Chain Party", subtitle: "Client's Web3 Game Project", img: "04", link:"https://chainparty.xyz/game"}
     ]
 </script>
 
-<div class="relative bg-white h-[700px]">
+<div class="relative bg-white h-[900px]">
     <div class="w-full max-w-[1130px] mx-auto py-[100px]">
         <Title title="My Work" section="portfolio"/>
-        <div class="grid grid-cols-3 mt-10 justify-items-center">
+        <div class="grid grid-cols-3 gap-4 mt-10 justify-items-center">
             {#each infos as info}
-            <a class="relative overflow-hidden rounded-lg card w-[350px] group" href={info.link} target="_blank">
+            <a class="relative overflow-hidden rounded-lg card group" href={info.link} target="_blank">
                 <!-- Image: Added transition for scaling on hover -->
                 <img src="/portfolio/{info.img}.png" class="inset-0 z-0 object-cover transition-transform duration-1000 group-hover:scale-110">
                 
