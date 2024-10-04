@@ -6,7 +6,7 @@
         {title: "Skywalker Tech", subtitle: "Web3 tech multiple pages site", img: "02", link:"https://skywalker-tech.netlify.app/"},
         {title: "Bujing Web", subtitle: "Customer's Web3 community landing page", img: "03", link:"https://bujing.netlify.app/"},
         {title: "Chain Party", subtitle: "Client's Web3 Game Project", img: "04", link:"https://chainparty.xyz/game"},
-        {title: "Redacted", subtitle: "Client's NFT Landing", img: "05", link:"https://redacted-landing.netlify.app/"}
+        {title: "Redacted", subtitle: "Client's NFT Landing Page", img: "05", link:"https://redacted-landing.netlify.app/"}
     ]
 </script>
 
