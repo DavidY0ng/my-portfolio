@@ -5,7 +5,8 @@
         {title: "Skywalker Lab", subtitle: "Company branch landing page", img: "01", link:"https://skywalker-lab.netlify.app/"},
         {title: "Skywalker Tech", subtitle: "Web3 tech multiple pages site", img: "02", link:"https://skywalker-tech.netlify.app/"},
         {title: "Bujing Web", subtitle: "Customer's Web3 community landing page", img: "03", link:"https://bujing.netlify.app/"},
-        {title: "Chain Party", subtitle: "Client's Web3 Game Project", img: "04", link:"https://chainparty.xyz/game"}
+        {title: "Chain Party", subtitle: "Client's Web3 Game Project", img: "04", link:"https://chainparty.xyz/game"},
+        {title: "Redacted", subtitle: "Client's NFT Landing", img: "05", link:"https://redacted-landing.netlify.app/"}
     ]
 </script>
 
@@ -16,7 +17,7 @@
             {#each infos as info}
             <a class="relative overflow-hidden rounded-lg card group" href={info.link} target="_blank">
                 <!-- Image: Added transition for scaling on hover -->
-                <img src="/portfolio/{info.img}.png" class="inset-0 z-0 object-cover transition-transform duration-1000 group-hover:scale-110">
+                <img src="/portfolio/{info.img}.png" class="inset-0 z-0 object-cover transition-transform duration-1000 group-hover:scale-110" alt="portfolio_img">
                 
                 <!-- Gradient and Text Container -->
                 <div class="absolute inset-0 z-10 flex flex-col items-start justify-center transition-opacity duration-1000 opacity-0 group-hover:opacity-100">
